@@ -66,7 +66,7 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: 'Open Sans', sans-serif; 
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
 }
@@ -477,3 +477,137 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {}
+
+.multi-column {
+    columns:300px 3;
+    -webkit-columns:300px 3;
+}
+
+.card-center-align {
+    text-align: center;
+}
+
+.content {  
+    overflow:scroll;
+    -webkit-overflow-scrolling:touch;
+    margin-bottom:30px;
+     font-family: 'Open Sans',sans-serif;
+    
+}
+
+.content .card {
+    width:366px;  
+    height:400px;
+    display:inline-block;
+}
+
+.card {
+    background:#FFF;
+    padding:0px;
+    margin:15px;
+    overflow:hidden;
+    box-shadow:  2px 2px 5px rgb(129, 164, 192);
+    border-radius: 5px;
+      color: #666;
+}
+.card:hover {
+color: #2268b2;
+
+}
+
+.card h1 {
+    margin:0px;
+    margin-top:130px;
+    
+    padding:10px;
+    padding-bottom:0px;
+    
+    font-size: 2.0em;
+    letter-spacing: -1px;
+    font-weight: bold;
+    
+}
+
+.card p {
+    margin:0px;
+    padding:10px;
+}
+
+.card-image {
+    width:100%;
+    height:200px;
+    padding:0px;
+    margin:0px;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    overflow:hidden;
+}
+
+.card-image .banner {
+    height:50px;
+    width:50px;
+    top:0px;
+    right:0px;
+    background-position:top right;
+    background-repeat:no-repeat;
+    background-image:url('../images/new.png');
+    position:absolute;
+}
+
+.card-image h1, 
+.card-image h2, 
+.card-image h3, 
+.card-image h4, 
+.card-image h5, 
+.card-image h6 {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    color:white;
+    background:rgba(0,0,0,0.65);
+    margin:0px;
+    padding:6px;
+    border:none;
+}
+
+.rightColumn,
+.leftColumn {
+    display:inline-block;
+    width:49%;
+    vertical-align:top;
+}
+
+.column {
+    display:inline-block;
+    vertical-align:top;
+}
+
+.image1 {
+    background-image:url('http://farm6.staticflickr.com/5323/9902848784_cbd10ba3ca_c.jpg');
+}
+
+.image2 {
+    background-image:url('http://farm6.staticflickr.com/5448/9901034384_e3de7406c3_c.jpg');
+}
+
+.image3 {
+    background-image:url('http://farm8.staticflickr.com/7383/9899900453_4540cf9de6_c.jpg');
+}
+
+.image4 {
+    background-image:url('http://farm3.staticflickr.com/2811/9680904065_7f866f4ab5_c.jpg');
+}
+
+.image5 {
+    background-image:url('http://farm6.staticflickr.com/5496/9684141030_70a80e3b40_z.jpg');
+}
+
+.image6 {
+    background-image:url('http://farm4.staticflickr.com/3726/9522001276_21bb6fbd64_z.jpg');
+}
+
+
+
+
+
